@@ -1,0 +1,21 @@
+#todo table tbody tr{
+	cursor: pointer;
+}
+
+#todo table tbody tr:hover{
+	background-color: #333;
+	color: white;
+	text-shadow: rgba(0, 0, 0, 0.5) -1px 1px 1px;
+}
+
+#form-add-persona{
+	width: 50%;
+	margin: auto;
+}
+
+
+@media screen and (max-width: 720px){
+	#form-add-persona{
+		width: 95%;
+	}
+}
